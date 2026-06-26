@@ -1,12 +1,12 @@
-
-        ListNode *slow = head, *fast = head;
-
-        while (fast->next != NULL && fast->next->next != NULL) {
-            slow = slow->next;
-            fast = fast->next->next;
+    {
+        while (root != NULL) {
+            if (p->val < root->val && q->val < root->val)
+                root = root->left;
+            else if (p->val > root->val && q->val > root->val)
+                root = root->right;
+            else
+                return root;
         }
-
-        ListNode *prev = NULL;
-        ListNode *curr = slow->next;
-
-        while (curr != NULL) {
+        return NULL;
+    }
+};
