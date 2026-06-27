@@ -2,7 +2,7 @@
 
 **Difficulty:** Easy
 **Language:** unknown
-**Solved:** 27/06/2026
+**Solved:** 28/06/2026
 **LeetCode:** [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)
 
 ## Problem
